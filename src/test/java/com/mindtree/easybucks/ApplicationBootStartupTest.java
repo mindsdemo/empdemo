@@ -35,6 +35,7 @@ public class ApplicationBootStartupTest {
 	@Test
 	public void contextLoads() {
 		
+		System.out.println("==Hello===");
 	}
 
 	
