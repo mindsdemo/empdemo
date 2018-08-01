@@ -35,7 +35,7 @@ public class ApplicationBootStartupTest {
 	@Test
 	public void contextLoads() {
 		
-		System.out.println("==Hello===");
+		System.out.println("== Change is the game =");
 	}
 
 	
