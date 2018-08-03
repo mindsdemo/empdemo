@@ -75,7 +75,13 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<version>1.4.187</version>
-		</dependency>		
+		</dependency>	
+		<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-context-support</artifactId>
+		</dependency> 
+ 
+			
 	</dependencies>
 
 	<build>
@@ -85,7 +91,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>				
 			</plugin>
 		</plugins>
-		 <finalName>ROOT</finalName>
+		 <finalName>empdemo</finalName>
 	</build>
 
 
