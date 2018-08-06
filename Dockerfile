@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine
-ADD  target/empdetails.jar  empdetails.jar 
+ADD  target/empdemo.war  empdemo.war
 EXPOSE 8085
-ENTRYPOINT ["java","-jar","empdetails.jar"] 
- 
+ENTRYPOINT ["java","-jar","empdemo.war"]
+
